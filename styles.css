@@ -69,6 +69,10 @@ header h1 span{
     font-size: larger;
     text-align: start;
 
+    &:active .aside-menu{
+        display: inline-block;
+    }
+
 }
 
 .cards img{
@@ -83,7 +87,7 @@ header h1 span{
 
 
 .side-menu{
-
+    display: none;
     background-color: white;
     width: 25%;
     position: absolute;
@@ -123,8 +127,17 @@ header h1 span{
 .price{
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 
+
+/* @media (max-width:768px){
+
+    .grid{
+    grid-template-columns: repeat(1,25%);
+
+    }
+} */
 
 
 
